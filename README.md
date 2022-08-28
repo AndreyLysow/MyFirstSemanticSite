@@ -7,7 +7,7 @@
 
 ### absolute link to the project below
 ---
-[MyFirstSemanticSite](www.skillfactory.ru)
+[MyFirstSemanticSite](https://github.com/AndreyLysow)
 ---
 
 © [Andrey Lysov](https://github.com/AndreyLysow), 2022
