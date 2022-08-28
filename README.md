@@ -11,7 +11,7 @@
 
 ---
 
-[MyFirstSemanticSite](www.skillfactory.ru)
+[MyFirstSemanticSite](https://github.com/AndreyLysow/MyFirstSemanticSite)
 
 ---
 
