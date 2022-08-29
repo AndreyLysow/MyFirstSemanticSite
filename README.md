@@ -3,14 +3,14 @@
 [Skillfactory](www.skillfactory.ru)
 ## by Lysov Andrey
 
-## Еhis Web project is deployed on the website http://fww.webtm.ru/pages/contacts.html
+## Еhis Web project is deployed on the website http://fww.webtm.ru/index.html
 
 ### link to the website below
 
 
 ---
 
-[MyFirstSemanticSite](http://fww.webtm.ru/pages/contacts.html)
+[MyFirstSemanticSite](http://fww.webtm.ru/index.html)
 
 ---
 
