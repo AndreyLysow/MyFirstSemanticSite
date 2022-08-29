@@ -1,32 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Контакты - Моя первая веб-страница с семантическими элементами</title>
-</head>
-<body bgcolor="#c0c0bf">
-    <header>
-        <img src="/images/animation.gif" width="400" height="35">
-        <a href="../index.html"><font size="5" color="blue" face="Arial">&nbsp;Главная&nbsp;</font></a>
-        <a href="about.html"><font size="5" color="red" face="Arial">&nbsp;О нас&nbsp;</font></a>
-        <a href="#"><font size="5" color="green" face="Arial">&nbsp;Контакты&nbsp;</font></a>
-        <img src="/images/animation.gif" width="400" height="35">
-    </header>
-    <hr size=5> 
-    <main>
-        <h1><i>Как нас найти&nbsp;</i>:</h1>
-        <address>
-            <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-            <font size="4" color="blue" face="Arial">660049, Красноярск,</font><br>
-            <font size="4" color="blue" face="Arial">пр-т. Мира, д.10,</font><br>
-            <font size="4" color="blue" face="Arial">телефон: 322-223-555</font><br>
-            <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-        </address>
-       
-        <a href="https://yandex.ru/maps/62/krasnoyarsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;"></a><a href="https://yandex.ru/maps/62/krasnoyarsk/house/prospekt_mira_10/bUsYfg5hSk0PQFtsfXxwcnVkYQ==/?from=tabbar&ll=92.892084%2C56.013735&mode=search&sctx=ZAAAAAgBEAAaKAoSCQ9fJoqQNldAERnG3SBaAUxAEhIJLPGAsilX4T8RI%2FjfSnZszD8iBgABAgMEBSgKOABAto4GSAFqAnJ1nQHNzEw9oAEAqAEAvQHsLjn%2FwgEF1PbOzgTqAQDyAQD4AQCCAirRiNC40YDQvtC60LDRjyDRgdGC0YDQtdC70LrQsCDQstC90LjQtyBnaWaKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=92.887219%2C56.018206&source=serp_navig&sspn=0.043470%2C0.017040&text=%D1%88%D0%B8%D1%80%D0%BE%D0%BA%D0%B0%D1%8F%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%BD%D0%B8%D0%B7%20gif&utm_medium=mapframe&utm_source=maps&z=17.05" style="color:#c0c0bf;font-size:12px;position:absolute;top:14px;">Проспект Мира, 10 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUVIYBF~A" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
-    </main>
-    <footer>
-        <span>&copy;&nbsp;Andrey&nbsp;Lysov</span>
-    </footer>
-</body>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Контакты - Моя первая веб-страница с семантическими элементами</title>
+    </head>
+        <body bgcolor="#c0c0bf">
+            <header>
+                <hr>
+                <hr>
+                <img alt="Покупайте наших слонов" src="/images/animation.gif" width="400" height="35">
+                <!--<a href="../index.html"><font size="5" color="blue" face="Arial">&nbsp;Главная&nbsp;</font></a>
+                <a href="about.html"><font size="5" color="red" face="Arial">&nbsp;О нас&nbsp;</font></a>
+                <a href="#"><font size="5" color="green" face="Arial">&nbsp;Контакты&nbsp;</font></a> после проверки на валидаторе пришлось убрать цвет
+                так как, валидатор выдавал ошибку и требовал подключать таблицу ститлей CSS (спорить не стал- ему виднее :-)-->
+                <a href="../index.html"><strong>&nbsp;Главная&nbsp;</strong></a>
+                <a href="about.html"><strong>&nbsp;О нас&nbsp;</strong></a>
+                <a href="#"><strong>&nbsp;Контакты&nbsp;</strong></a>
+                <img alt="Покупайте наших слонов" src="/images/animation.gif" width="400" height="35">
+            </header>
+            <hr> 
+            <hr>
+            <main>
+                <h1><i>Как нас найти&nbsp;</i>:</h1>
+                <address>
+                    <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
+                    <font size="4" color="blue" face="Arial">660049, Красноярск,</font><br>
+                    <font size="4" color="blue" face="Arial">пр-т. Мира, д.10,</font><br>
+                    <font size="4" color="blue" face="Arial">телефон: 322-223-555</font><br>
+                    <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
+                </address>
+            
+                <a href="https://yandex.ru/maps/62/krasnoyarsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;"></a><a href="https://yandex.ru/maps/62/krasnoyarsk/house/prospekt_mira_10/bUsYfg5hSk0PQFtsfXxwcnVkYQ==/?from=tabbar&ll=92.892084%2C56.013735&mode=search&sctx=ZAAAAAgBEAAaKAoSCQ9fJoqQNldAERnG3SBaAUxAEhIJLPGAsilX4T8RI%2FjfSnZszD8iBgABAgMEBSgKOABAto4GSAFqAnJ1nQHNzEw9oAEAqAEAvQHsLjn%2FwgEF1PbOzgTqAQDyAQD4AQCCAirRiNC40YDQvtC60LDRjyDRgdGC0YDQtdC70LrQsCDQstC90LjQtyBnaWaKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=92.887219%2C56.018206&source=serp_navig&sspn=0.043470%2C0.017040&text=%D1%88%D0%B8%D1%80%D0%BE%D0%BA%D0%B0%D1%8F%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%BD%D0%B8%D0%B7%20gif&utm_medium=mapframe&utm_source=maps&z=17.05" style="color:#c0c0bf;font-size:12px;position:absolute;top:14px;">Проспект Мира, 10 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUVIYBF~A" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
+            </main>
+            <footer>
+                <span>&copy;&nbsp;Andrey&nbsp;Lysov</span>
+            </footer>
+        </body>
 </html>

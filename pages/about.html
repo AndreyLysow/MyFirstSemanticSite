@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>О нас - Моя первая веб-страница с семантическими элементами</title>
-</head>
-<body bgcolor="#c0c0bf">
-    <header>
-        <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-        <hr size="7"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-        <img src="/images/animation.gif" width="400" height="35">
-        <a href="../index.html"><font size="5" color="blue" face="Arial">&nbsp;Главная&nbsp;</font></a>
-        <a href="#"><font size="5" color="red" face="Arial">&nbsp;О нас&nbsp;</font></a>
-        <a href="contacts.html"><font size="5" color="green" face="Arial">&nbsp;Контакты&nbsp;</font></a>
-        <img src="/images/animation.gif" width="400" height="35">
-        <hr size="7"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-        <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-     </header>
-    <hr size=5> 
-    <main>
-        <h1>О нас&nbsp;:</h1>
-        <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-        <h2><b><i>Мы лучшие в своем деле. Покупайте наших слонов!</i></b></h2>
-        <hr size="4"> <!-- немного поэксперементировал с толщиной разделительной линии -->
-        <br>
-    </main>
-    <footer>
-        <span>&copy;&nbsp;Andrey&nbsp;Lysov</span>
-    </footer>
-</body>
-</html>
+<htm lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>О нас - Моя первая веб-страница с семантическими элементами</title>
+    </head>
+        <body bgcolor="#c0c0bf">
+            <header>
+                <!--<hr size="4">  немного поэксперементировал с толщиной разделительной линии, но после проверки на https://validator.w3.org/ пришлось убрать-->
+                <hr> 
+                <hr> 
+                <img alt="Покупайте наших слонов" src="/images/animation.gif" width="400" height="35">
+                <!--<a href="../index.html"><font size="5" color="blue" face="Arial">&nbsp;Главная&nbsp;</font></a>
+                <a href="#"><font size="5" color="red" face="Arial">&nbsp;О нас&nbsp;</font></a>
+                <a href="contacts.html"><font size="5" color="green" face="Arial">&nbsp;Контакты&nbsp;</font></a> после проверки на валидаторе пришлось убрать цвет
+                так как, валидатор выдавал ошибку и требовал подключать таблицу ститлей CSS (спорить не стал- ему виднее :-)-->
+                <a href="../index.html"><strong>&nbsp;Главная&nbsp;</strong></a>
+                <a href="#"><strong>&nbsp;О нас&nbsp;</strong></a>
+                <a href="contacts.html"><strong>&nbsp;Контакты&nbsp;</strong></a>
+                <img alt="Покупайте наших слонов" src="/images/animation.gif" width="400" height="35">
+                <hr> 
+                <hr> 
+            </header>
+                <main>
+                    <hr>
+                    <h1>О нас&nbsp;:</h1>
+                    <hr> 
+                    <h2><b><i>Мы лучшие в своем деле. Покупайте наших слонов!</i></b></h2>
+                    <hr> 
+                    <br>
+                </main>
+            <footer>
+                <span>&copy;&nbsp;Andrey&nbsp;Lysov</span>
+            </footer>
+        </body>
+</htm>
